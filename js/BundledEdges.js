@@ -24,7 +24,7 @@ var svg = d3.select("#chart").append("svg")
 var link = svg.append("g").selectAll(".link"),
     node = svg.append("g").selectAll(".node");
 
-d3.json("data/tickets.json", function(error, classes) {
+d3.json("tele2.json", function(error, classes) {
   var nodes = cluster.nodes(packageHierarchy(classes)),
       links = packageImports(nodes);
 
@@ -111,7 +111,8 @@ function packageImports(nodes) {
   // For each import, construct a link from the source to target node.
   nodes.forEach(function(d) {
     if (d.imports) d.imports.forEach(function(i) {
-      imports.push({source: map[d.name], target: map[i]});
+     var x = i[0];
+      imports.push({source: map[d.name], target: map[x]});
     });
   });
 
