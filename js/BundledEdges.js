@@ -1,4 +1,4 @@
-var diameter = 1200,
+var diameter = 900,
     radius = diameter / 2,
     innerRadius = radius - 120;
 
