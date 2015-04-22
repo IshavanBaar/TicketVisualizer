@@ -24,7 +24,7 @@ var svg = d3.select("#chart").append("svg")
 var link = svg.append("g").selectAll(".link"),
     node = svg.append("g").selectAll(".node");
 
-d3.json("tele.json", function(error, classes) {
+d3.json("tele2.json", function(error, classes) {
   var nodes = cluster.nodes(packageHierarchy(classes)),
       links = packageImports(nodes);
 
