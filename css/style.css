@@ -49,6 +49,19 @@ footer {
   fill: #d62728;
 }
 
+.source {
+  color:  #2ca02c;
+}
+.target {
+   color: #d62728;
+}
+
+#legend {
+  float: right;
+padding: 10px;
+background: none repeat scroll 0% 0% #FCFCFC;
+}
+
 .link--source,
 .link--target {
   stroke-opacity: 1;
@@ -67,8 +80,9 @@ footer {
   text-align: center;
 }
 
-#filters{
-  background: #E6ECEF;
-margin-bottom: 70px;
-border-bottom: 2px solid darkcyan;
+#filters {
+    background: none repeat scroll 0% 0% #E6ECEF;
+    margin-bottom: 70px;
+    border-bottom: 2px solid #008B8B;
+    padding-top: 14px;
 }
