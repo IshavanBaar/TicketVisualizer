@@ -24,7 +24,7 @@ var svg = d3.select("#chart").append("svg")
 var link = svg.append("g").selectAll(".link"),
     node = svg.append("g").selectAll(".node");
 
-d3.json("tele2.json", function(error, classes) {
+d3.json("tele.json", function(error, classes) {
   var nodes = cluster.nodes(packageHierarchy(classes)),
       links = packageImports(nodes);
 
@@ -119,26 +119,3 @@ function packageImports(nodes) {
   return imports;
 }
 
-// Return a list of imports for the given array of nodes.
-function packageImportsDate(nodes, Date1, Date2) {
-  var map = {},
-      imports = [];
-
-  // Compute a map from name to node.
-  nodes.forEach(function(d) {
-    map[d.name] = d;
-  });
-
-  // For each import, construct a link from the source to target node.
-  nodes.forEach(function(d) {
-    if (d.imports) d.imports.forEach(function(i) {
-     var x = i[0];
-     var date = i[2];
-     if(date.substr(0,4)=="2015"){
-      imports.push({source: map[d.name], target: map[x]});
-      }
-    });
-  });
-
-  return imports;
-}
