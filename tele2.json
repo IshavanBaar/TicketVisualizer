@@ -1,9 +1,17 @@
 [
+<<<<<<< HEAD
 {"name":"tele2group.management.tele2ab.ExecutiveBoardAB", "imports":[["tele2group.ctio.tele2ab.CTIOAB","2015-04-23T18:25:43.511Z","type","status"]]},
 {"name":"tele2group.management.tele2ab.CorporateCommunicationsAB", "imports":[["tele2group.ctio.tele2ab.CTIOAB","2015-20-23T18:25:43.511Z","type","status"]]},
 {"name":"tele2group.management.tele2ab.GroupFinanceAB", "imports":[["tele2group.ctio.tele2ab.CTIOAB","2015-20-23T18:25:43.511Z","type","status"]]},
 {"name":"tele2group.management.tele2ab.Group HumanResourcesAB", "imports":[["tele2group.ctio.tele2ab.CTIOAB","2015-20-23T18:25:43.511Z","type","status"]]},
 {"name":"tele2group.management.tele2ab.Group Legal&RegulatoryAB", "imports":[["tele2group.ctio.tele2ab.CTIOAB","2015-20-23T18:25:43.511Z","type","status"]]},
+=======
+{"name":"tele2group.management.tele2ab.ExecutiveBoardAB", "imports":[["tele2group.ctio.tele2ab.CTIOAB","2015-20-23T18:25:43.511Z","issues","open"],["tele2group.ctio.tele2ab.CTIOOperationsAB","2015-2-23T18:25:43.511Z","bugs","closed"]]},
+{"name":"tele2group.management.tele2ab.CorporateCommunicationsAB", "imports":[["tele2group.ctio.tele2ab.CTIOAB","2015-20-23T18:25:43.511Z","tasks","resolved"],["tele2group.ctio.tele2ab.CTIOAB","2015-10-13T18:25:43.511Z","newFeatures","inProgress"]]},
+{"name":"tele2group.management.tele2ab.GroupFinanceAB", "imports":[["tele2group.ctio.tele2ab.CTIOAB","2015-20-23T18:25:43.511Z","issues","resolved"],["tele2group.ctio.tele2ab.CTIOAB","2015-20-23T18:25:43.511Z","tasks","resolved"]]},
+{"name":"tele2group.management.tele2ab.Group HumanResourcesAB", "imports":[["tele2group.ctio.tele2ab.CTIOAB","2015-20-23T18:25:43.511Z","bugs","open"],["tele2group.ctio.tele2ab.CTIOAB","2015-20-23T18:25:43.511Z","tasks","resolved"]},
+{"name":"tele2group.management.tele2ab.Group Legal&RegulatoryAB", "imports":[["tele2group.management.tele2ab.StrategyAB","2015-20-23T18:25:43.511Z","suggestions","open"]]},
+>>>>>>> origin/gh-pages
 {"name":"tele2group.management.tele2ab.ProcurementAB", "imports":[["tele2group.ctio.tele2ab.CTIOAB","2015-20-23T18:25:43.511Z","type","status"]]},
 {"name":"tele2group.management.tele2ab.StrategyAB", "imports":[["tele2group.ctio.tele2ab.CTIOAB","2015-20-23T18:25:43.511Z","type","status"]]},
 {"name":"tele2group.management.tele2ab.TreasuryAB", "imports":[["tele2group.ctio.tele2ab.CTIOAB","2015-20-23T18:25:43.511Z","type","status"]]},
