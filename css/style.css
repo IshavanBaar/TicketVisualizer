@@ -70,3 +70,9 @@ footer {
 #chart {
   text-align: center;
 }
+
+#filters{
+  background: #E6ECEF;
+margin-bottom: 70px;
+border-bottom: 2px solid darkcyan;
+}
