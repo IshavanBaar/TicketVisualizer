@@ -1,4 +1,4 @@
-var diameter = 800,
+var diameter = 1200,
     radius = diameter / 2,
     innerRadius = radius - 120;
 
@@ -113,6 +113,30 @@ function packageImports(nodes) {
     if (d.imports) d.imports.forEach(function(i) {
      var x = i[0];
       imports.push({source: map[d.name], target: map[x]});
+    });
+  });
+
+  return imports;
+}
+// Return a list of imports for the given array of nodes.
+function packageImportsDate(Date1, Date2) {
+	
+  var map = {},
+      imports = [];
+
+  // Compute a map from name to node.
+  nodes.forEach(function(d) {
+    map[d.name] = d;
+  });
+
+  // For each import, construct a link from the source to target node.
+  nodes.forEach(function(d) {
+    if (d.imports) d.imports.forEach(function(i) {
+     var x = i[0];
+     var date = i[1];
+     if(date.substr(0,10)==Date1){
+      imports.push({source: map[d.name], target: map[x]});
+      }
     });
   });
 
