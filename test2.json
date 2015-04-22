@@ -1,0 +1,18 @@
+[
+{"name":"tele2.Operation&GovernanceSystems.Agnes Aronsson Landberg","imports":[["tele2.Operation&GovernanceSystems.test2.E","date","type","status"],["tele2.Operation&GovernanceSystems.test3.J","date","type","status"]]},
+{"name":"tele2.Operation&GovernanceSystems.test.B","imports":[["tele2.Operation&GovernanceSystems.test2.E","date","type","status"]]},
+{"name":"tele2.Operation&GovernanceSystems.test.C","imports":[["tele2.Operation&GovernanceSystems.test2.E","date","type","status"]]},
+{"name":"tele2.Operation&GovernanceSystems.test.D","imports":[["tele2.Operation&GovernanceSystems.test2.E","date","type","status"],["tele2.Operation&GovernanceSystems.test3.L","date","type","status"],["tele2.Operation&GovernanceSystems.test3.L","date","type","status"],["tele2.Operation&GovernanceSystems.test3.L","date","type","status"],["tele2.Operation&GovernanceSystems.test3.L","date","type","status"],["tele2.Operation&GovernanceSystems.test3.L","date","type","status"]]},
+{"name":"tele2.Operation&GovernanceSystems.test2.E","imports":[["tele2.Operation&GovernanceSystems.test2.E","date","type","status"]]},
+{"name":"tele2.Operation&GovernanceSystems.test2.F","imports":[["tele2.Operation&GovernanceSystems.test2.E","date","type","status"]]},
+{"name":"tele2.Operation&GovernanceSystems.test2.G","imports":[["tele2.Operation&GovernanceSystems.test2.E","date","type","status"]]},
+{"name":"tele2.Operation&GovernanceSystems.Alexandra Hänel","imports":[["tele2.Operation&GovernanceSystems.test2.E","date","type","status"]]},
+{"name":"tele2.Operation&GovernanceSystems.test3.I","imports":[["tele2.Operation&GovernanceSystems.test2.E","date","type","status"]]},
+{"name":"tele2.Operation&GovernanceSystems.test3.J","imports":[["tele2.Operation&GovernanceSystems.test2.E","date","type","status"]]},
+{"name":"tele2.Operation&GovernanceSystems.test3.K","imports":[["tele2.Operation&GovernanceSystems.test2.E","date","type","status"]]},
+{"name":"tele2.Operation&GovernanceSystems.test3.L","imports":[["tele2.Operation&GovernanceSystems.test2.E","date","type","status"]]},
+{"name":"tele2.Operation&GovernanceSystems.test4.M","imports":[["tele2.Operation&GovernanceSystems.test2.E","date","type","status"],["tele2.Operation&GovernanceSystems.test.B","date","type","status"],["tele2.Operation&GovernanceSystems.test.C","date","type","status"],["tele2.Operation&GovernanceSystems.test2.E","date","type","status"],["tele2.Operation&GovernanceSystems.test2.E","date","type","status"]]},
+{"name":"tele2.Operation&GovernanceSystems.test4.N","imports":[["tele2.Operation&GovernanceSystems.test2.E","date","type","status"]]},
+{"name":"tele2.Operation&GovernanceSystems.test4.O","imports":[["tele2.Operation&GovernanceSystems.test2.E","date","type","status"]]},
+{"name":"tele2.Operation&GovernanceSystems.test4.P","imports":[["tele2.Operation&GovernanceSystems.test2.E","date","type","status"],["tele2.Operation&GovernanceSystems.test2.E","date","type","status"],["tele2.Operation&GovernanceSystems.test2.E","date","type","status"],["tele2.Operation&GovernanceSystems.test2.E","date","type","status"]]}
+]
