@@ -49,6 +49,19 @@ footer {
   fill: #d62728;
 }
 
+.source {
+  color:  #2ca02c;
+}
+.target {
+   color: #d62728;
+}
+
+#legend {
+  float: right;
+padding: 10px;
+background: none repeat scroll 0% 0% #FCFCFC;
+}
+
 .link--source,
 .link--target {
   stroke-opacity: 1;
