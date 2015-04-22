@@ -11,6 +11,9 @@
     <link rel="shortcut icon" href="/circle-arrow.ico" type="image/x-icon">
 	<link rel="icon" href="/circle-arrow.ico" type="image/x-icon">
     
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    
     <!-- Custom CSS -->
 	<link rel="stylesheet" href="css/style.css">
     
@@ -18,5 +21,27 @@
     <script src="http://d3js.org/d3.v3.min.js"></script>
 </head>
 <body>
-    <script src="js/BundledEdges.js"></script>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <h2>Ticket Visualizer</h1>
+        </div>
+        <div class="col-md-4">
+            <div id="author">By the Black Sheeps</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8">
+          <h6 id="subtitle">A concept to visualize inter corporate communication</h6>
+        </div>
+      </div>
+      <div class="row">
+          <script src="js/BundledEdges.js"></script>
+      </div>
+    </div>
+      <div class="row">
+          <!-- Credits -->
+            <footer>Made for Tele2 Hack Day #3 using mockup data
+            </footer>
+      </div>
 </body>
