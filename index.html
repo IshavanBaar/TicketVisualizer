@@ -113,5 +113,19 @@
       }
     });
   });
+  	$("#from").datepicker({
+  		onSelect: function() {
+  			var day1 = $("#from").datepicker('getDate').getDate();                 
+            var month1 = $("#from").datepicker('getDate').getMonth() + 1;             
+            var year1 = $("#from").datepicker('getDate').getFullYear();
+            var fullDateFrom = year1 + "-" + month1 + "-" + day1;
+            var day2 = $("#to").datepicker('getDate').getDate();                 
+            var month2 = $("#to").datepicker('getDate').getMonth() + 1;             
+            var year2 = $("#to").datepicker('getDate').getFullYear();
+            var fullDateTo = year1 + "-" + month1 + "-" + day1;
+            display("Selected date: " + fullDateFrom + "; input's current value: " + this.value);
+    		packageImportsDate(fullDateFrom,fullDateTo);
+  }
+});
   </script>
 </body>
