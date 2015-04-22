@@ -66,3 +66,7 @@ footer {
 .link--target {
   stroke: #2ca02c;
 }
+
+#chart {
+  text-align: center;
+}
